@@ -1,0 +1,53 @@
+[0.070s] Invoking command in '/home/user/ros2_ws/build/my_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/services_pkg:/home/simulations/ros2_sims_ws/install/parameter_tests:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake /home/user/ros2_ws/src/my_package -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/install/my_package
+[9.257s] -- The C compiler identification is GNU 11.2.0
+[13.457s] -- The CXX compiler identification is GNU 11.2.0
+[13.524s] -- Detecting C compiler ABI info
+[13.853s] -- Detecting C compiler ABI info - done
+[13.863s] -- Check for working C compiler: /usr/bin/cc - skipped
+[13.863s] -- Detecting C compile features
+[13.936s] -- Detecting C compile features - done
+[13.940s] -- Detecting CXX compiler ABI info
+[14.201s] -- Detecting CXX compiler ABI info - done
+[14.210s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[14.210s] -- Detecting CXX compile features
+[14.210s] -- Detecting CXX compile features - done
+[14.220s] -- Found ament_cmake: 1.3.2 (/opt/ros/humble/share/ament_cmake/cmake)
+[14.586s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[14.974s] -- Found rclcpp: 16.0.1 (/opt/ros/humble/share/rclcpp/cmake)
+[15.269s] -- Found rosidl_generator_c: 3.1.3 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[15.282s] -- Found rosidl_adapter: 3.1.3 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[15.304s] -- Found rosidl_generator_cpp: 3.1.3 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[15.335s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[15.375s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[15.784s] -- Found rmw_implementation_cmake: 6.1.0 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[15.792s] -- Found rmw_fastrtps_cpp: 6.2.1 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[16.676s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[16.718s] -- Found FastRTPS: /opt/ros/humble/include  
+[16.784s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[17.148s] -- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[17.266s] -- Added test 'lint_cmake' to check CMake code style
+[17.269s] -- Added test 'xmllint' to check XML markup files
+[17.272s] -- Configuring done
+[17.278s] -- Generating done
+[17.279s] -- Build files have been written to: /home/user/ros2_ws/build/my_package
+[17.291s] Invoked command in '/home/user/ros2_ws/build/my_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/services_pkg:/home/simulations/ros2_sims_ws/install/parameter_tests:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake /home/user/ros2_ws/src/my_package -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/install/my_package
+[17.293s] Invoking command in '/home/user/ros2_ws/build/my_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/services_pkg:/home/simulations/ros2_sims_ws/install/parameter_tests:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/my_package -- -j8 -l8
+[17.333s] Invoked command in '/home/user/ros2_ws/build/my_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/services_pkg:/home/simulations/ros2_sims_ws/install/parameter_tests:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/my_package -- -j8 -l8
+[17.370s] Invoking command in '/home/user/ros2_ws/build/my_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/services_pkg:/home/simulations/ros2_sims_ws/install/parameter_tests:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/build/my_package
+[17.377s] -- Install configuration: ""
+[17.378s] -- Installing: /home/user/ros2_ws/install/my_package/share/ament_index/resource_index/package_run_dependencies/my_package
+[17.378s] -- Installing: /home/user/ros2_ws/install/my_package/share/ament_index/resource_index/parent_prefix_path/my_package
+[17.378s] -- Installing: /home/user/ros2_ws/install/my_package/share/my_package/environment/ament_prefix_path.sh
+[17.378s] -- Installing: /home/user/ros2_ws/install/my_package/share/my_package/environment/ament_prefix_path.dsv
+[17.378s] -- Installing: /home/user/ros2_ws/install/my_package/share/my_package/environment/path.sh
+[17.378s] -- Installing: /home/user/ros2_ws/install/my_package/share/my_package/environment/path.dsv
+[17.379s] -- Installing: /home/user/ros2_ws/install/my_package/share/my_package/local_setup.bash
+[17.379s] -- Installing: /home/user/ros2_ws/install/my_package/share/my_package/local_setup.sh
+[17.379s] -- Installing: /home/user/ros2_ws/install/my_package/share/my_package/local_setup.zsh
+[17.379s] -- Installing: /home/user/ros2_ws/install/my_package/share/my_package/local_setup.dsv
+[17.379s] -- Installing: /home/user/ros2_ws/install/my_package/share/my_package/package.dsv
+[17.379s] -- Installing: /home/user/ros2_ws/install/my_package/share/ament_index/resource_index/packages/my_package
+[17.379s] -- Installing: /home/user/ros2_ws/install/my_package/share/my_package/cmake/my_packageConfig.cmake
+[17.380s] -- Installing: /home/user/ros2_ws/install/my_package/share/my_package/cmake/my_packageConfig-version.cmake
+[17.380s] -- Installing: /home/user/ros2_ws/install/my_package/share/my_package/package.xml
+[17.382s] Invoked command in '/home/user/ros2_ws/build/my_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/services_pkg:/home/simulations/ros2_sims_ws/install/parameter_tests:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/build/my_package

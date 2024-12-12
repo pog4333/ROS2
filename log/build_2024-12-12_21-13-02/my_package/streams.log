@@ -1,0 +1,27 @@
+[0.017s] Invoking command in '/home/user/ros2_ws/build/my_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/services_pkg:/home/simulations/ros2_sims_ws/install/parameter_tests:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/my_package -- -j8 -l8
+[0.068s] [ 50%] [32mBuilding CXX object CMakeFiles/simple_node.dir/src/simple.cpp.o[0m
+[2.822s] [100%] [32m[1mLinking CXX executable simple_node[0m
+[2.929s] [100%] Built target simple_node
+[2.938s] Invoked command in '/home/user/ros2_ws/build/my_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/services_pkg:/home/simulations/ros2_sims_ws/install/parameter_tests:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/my_package -- -j8 -l8
+[2.979s] Invoking command in '/home/user/ros2_ws/build/my_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/services_pkg:/home/simulations/ros2_sims_ws/install/parameter_tests:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/build/my_package
+[2.986s] -- Install configuration: ""
+[2.986s] -- Installing: /home/user/ros2_ws/install/my_package/lib/my_package/simple_node
+[2.986s] -- Set runtime path of "/home/user/ros2_ws/install/my_package/lib/my_package/simple_node" to ""
+[2.986s] -- Up-to-date: /home/user/ros2_ws/install/my_package/share/my_package//launch
+[2.987s] -- Up-to-date: /home/user/ros2_ws/install/my_package/share/my_package//launch/my_package_launch_file.launch.py
+[2.987s] -- Up-to-date: /home/user/ros2_ws/install/my_package/share/ament_index/resource_index/package_run_dependencies/my_package
+[2.987s] -- Up-to-date: /home/user/ros2_ws/install/my_package/share/ament_index/resource_index/parent_prefix_path/my_package
+[2.987s] -- Up-to-date: /home/user/ros2_ws/install/my_package/share/my_package/environment/ament_prefix_path.sh
+[2.987s] -- Up-to-date: /home/user/ros2_ws/install/my_package/share/my_package/environment/ament_prefix_path.dsv
+[2.987s] -- Up-to-date: /home/user/ros2_ws/install/my_package/share/my_package/environment/path.sh
+[2.987s] -- Up-to-date: /home/user/ros2_ws/install/my_package/share/my_package/environment/path.dsv
+[2.987s] -- Up-to-date: /home/user/ros2_ws/install/my_package/share/my_package/local_setup.bash
+[2.987s] -- Up-to-date: /home/user/ros2_ws/install/my_package/share/my_package/local_setup.sh
+[2.988s] -- Up-to-date: /home/user/ros2_ws/install/my_package/share/my_package/local_setup.zsh
+[2.988s] -- Up-to-date: /home/user/ros2_ws/install/my_package/share/my_package/local_setup.dsv
+[2.988s] -- Installing: /home/user/ros2_ws/install/my_package/share/my_package/package.dsv
+[2.988s] -- Up-to-date: /home/user/ros2_ws/install/my_package/share/ament_index/resource_index/packages/my_package
+[2.988s] -- Up-to-date: /home/user/ros2_ws/install/my_package/share/my_package/cmake/my_packageConfig.cmake
+[2.988s] -- Up-to-date: /home/user/ros2_ws/install/my_package/share/my_package/cmake/my_packageConfig-version.cmake
+[2.989s] -- Up-to-date: /home/user/ros2_ws/install/my_package/share/my_package/package.xml
+[2.989s] Invoked command in '/home/user/ros2_ws/build/my_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/services_pkg:/home/simulations/ros2_sims_ws/install/parameter_tests:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/build/my_package
